@@ -30,8 +30,8 @@ def binary_search(nl, target, start, end):
 # 리스트 ml을 순회하며 target을 하나씩 꺼내면서 nl내에 있는지 이진탐색으로 확인하고,
 # nl내에 target이 없다면 0을 출력, 있다면 1을 출력한다.
 for target in ml:
-    result = binary_search(nl, target, 0, n-1)
-    if result == None:
-    	print("0")
+	result = binary_search(nl, target, 0, n-1)
+	if result == None:
+		print("0")
 	else:
 		print("1")
