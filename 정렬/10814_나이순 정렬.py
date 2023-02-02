@@ -16,7 +16,7 @@ n = int(input())
 l = []
 # 회원마다 정보를 입력해야 하므로 회원수만큼 정보를 받아준다.
 for _ in range(n):
-    # input 대신 sys.stdin.readlin()을 사용해 시간복잡도를 낮춰준다.
+    # input 대신 sys.stdin.readline()을 사용해 시간복잡도를 낮춰준다.
     age, name = map(str, sys.stdin.readline().split())
     # 빈 리스트 l에 리스트 형태로 age, name을 넣어준다. 리스트 형태로 하지 않으면 정렬할 때 age, name의 쌍이 뒤죽박죽 될 수 있기 때문에 리스트 형태로 받는다.
     l.append([int(age), name])
