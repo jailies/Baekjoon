@@ -14,7 +14,7 @@ import sys
 n = int(input())
 # 나중에 리스트에 받아 정렬할 것이므로 빈 리스트를 생성해둔다.
 l = []
-# 회원마다 정보를 입력해야 하므로 회원수만큼 정보를 받아준다.
+# 회원마다 정보를 입력해야 하므로 회원수 n만큼 정보를 받아준다.
 for _ in range(n):
     # input 대신 sys.stdin.readline()을 사용해 시간복잡도를 낮춰준다.
     age, name = map(str, sys.stdin.readline().split())
